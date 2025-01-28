@@ -1,23 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import { Up1 } from "./useparams/up1.jsx";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className="heading">
+        <h1>react hooks</h1>
+      </div>
+      {/* <Us1 /> */}
+      <br />
+      {/* <Us2 /> */}
+      <br />
+      {/* <Ue1 /> */}
+      <br />
+      <Up1 />
+      <br />
+      {/* <Reftut/>
+    <br />
+
+    
+    <br />
+      {/* <Yesuc/>  
+    <br />
+    <Um1/>  */}
     </div>
   );
 }
