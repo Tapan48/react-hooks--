@@ -10,4 +10,4 @@ const ClickCounter = (props) => {
   );
 };
 
-export default withCounter(ClickCounter); // this is the higher order component that is used to wrap the component and add the logic
+export default withCounter(ClickCounter, 5); // this is the higher order component that is used to wrap the component and add the logic

@@ -11,12 +11,12 @@
 import React, { useState } from "react";
 
 // Higher Order Component that handles counter functionality
-const withCounter = (WrappedComponent) => {
+const withCounter = (WrappedComponent, incrementNumber) => {
   const WithCounter = (props) => {
     const [count, setCount] = useState(0);
 
     const incrementCount = () => {
-      setCount((prevCount) => prevCount + 1);
+      setCount((prevCount) => prevCount + incrementNumber);
     };
 
     return (

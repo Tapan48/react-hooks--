@@ -7,9 +7,9 @@ const HoverCounter = (props) => {
 
   return (
     <div>
-      <h1 onMouseOver={incrementCount}>Hovered {count} times</h1>
+      <h2 onMouseOver={incrementCount}>clicked {count} times</h2>
     </div>
   );
 };
 
-export default withCounter(HoverCounter); // this is the higher order component that is used to wrap the component and add the logic
+export default withCounter(HoverCounter, 2); // this is the higher order component that is used to wrap the component and add the logic
