@@ -1,5 +1,5 @@
 import "./App.css";
-import LifecycleA from "./lifecyclemethods/mountingmethods/lifecycleA";
+import LifecycleAupdate from "./lifecyclemethods/updatingmethods/lifecycleA";
 function App() {
   return (
     <div className="App">
@@ -20,7 +20,8 @@ function App() {
       <br />
       {/* <HoverCounter /> */}
       <br />
-      <LifecycleA />
+      {/* <LifecycleA /> */}
+      <LifecycleAupdate />
       {/* <Yesuc /> */}
       <br />
       {/* <Um1/>  */}
