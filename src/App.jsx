@@ -1,7 +1,5 @@
 import "./App.css";
-import ClickCounter from "./higherordercomponent/clickcounter";
-import HoverCounter from "./higherordercomponent/hovercounter";
-
+import LifecycleA from "./lifecyclemethods/mountingmethods/lifecycleA";
 function App() {
   return (
     <div className="App">
@@ -18,10 +16,11 @@ function App() {
       <br />
       {/* <Reftut/> */}
       <br />
-      <ClickCounter />
+      {/* <ClickCounter /> */}
       <br />
-      <HoverCounter />
+      {/* <HoverCounter /> */}
       <br />
+      <LifecycleA />
       {/* <Yesuc /> */}
       <br />
       {/* <Um1/>  */}
