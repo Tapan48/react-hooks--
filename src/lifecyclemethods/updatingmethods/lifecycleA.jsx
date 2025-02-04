@@ -100,6 +100,6 @@ export default lifecycleAupdate;
 // order of execution of unmounting phase methods
 // componentWillUnmount
 
-// componentWillUnmount is a method that is called when the component is removed from the DOM
+// This method is called right before a component is removed from the DOM, allowing for cleanup tasks like canceling subscriptions or removing event listeners.
 // it is used to perform any cleanup
 // it is called only once
