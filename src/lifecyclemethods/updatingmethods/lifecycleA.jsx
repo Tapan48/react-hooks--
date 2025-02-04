@@ -68,6 +68,10 @@ export class lifecycleAupdate extends Component {
     console.log("lifecycleA componentDidUpdate");
   }
 
+  componentWillUnmount() {
+    console.log("lifecycleA componentWillUnmount");
+  }
+
   changeState = () => {
     this.setState({
       name: "tapan great",
@@ -87,3 +91,15 @@ export class lifecycleAupdate extends Component {
 }
 
 export default lifecycleAupdate;
+
+//// unmounting phase methods are called when a component is removed from the DOM
+
+// unmounting phase has following 1 lifecycle method
+// componentWillUnmount
+
+// order of execution of unmounting phase methods
+// componentWillUnmount
+
+// componentWillUnmount is a method that is called when the component is removed from the DOM
+// it is used to perform any cleanup
+// it is called only once
