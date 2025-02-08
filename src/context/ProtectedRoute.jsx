@@ -1,5 +1,5 @@
 // protected route are used to protect the routes from unauthorized access
-// this 
+// this is role based access control (RBAC)
 
 import React, { useContext } from "react";
 import { Navigate } from "react-router-dom";
@@ -18,7 +18,6 @@ const ProtectedRoute = ({ children, roles }) => {
     console.log("unauthorized");
     return <Navigate to="/unauthorized" />;
   }
-
   return children;
 };
 
